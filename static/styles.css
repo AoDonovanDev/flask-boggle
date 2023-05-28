@@ -23,3 +23,28 @@ form{
     border-radius: 40%;
     background-color: slateblue;
 }
+#score{
+    height: 30px;
+    width: 30px;
+    background-color:blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#count{
+    display: flex;
+    justify-content: center;
+}
+#highScore{
+    display: flex;
+    justify-content: center;
+}
+.stats{
+    text-align: center;
+}
+#scoreBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

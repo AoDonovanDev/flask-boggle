@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="/static/styles.css">
 </head>
 <body>
+    <div id = "scoreBox">current score<div id="score">0</div></div>
+    <div class = "stats">high score: <h3 id="highScore">{{highScore}}</h3></div>
+    <div class = "stats">number of times played: <h3 id="count">{{count}}</h3></div>
+    <h2 id="msg"></h2>
     <div class="grid">
         {% for row in board %}
             {% for letter in row %}
@@ -23,5 +27,5 @@
 </body>
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-<script src = "/static/script.js"></script>
+<script src = "/static/script-oo.js"></script>
 </html>
